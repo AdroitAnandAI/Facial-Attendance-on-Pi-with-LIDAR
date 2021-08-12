@@ -19,7 +19,8 @@ The project has been tested using OpenVINO 2019 (models included in repo) on a R
 ## How to Use?
 
 First, clone this repo to a Raspberry Pi. Set up Intel Movidius NCS 2 so that you can run OpenVINO models in it.
-This is enough to run the Face Recognition module. For LIDAR, install the required packages and connect a speaker after 'espeak' installation.
+This is enough to run the Face Recognition module. Then connec the LIDAR via USB and install the required packages.
+Further, you can connect a speaker to RPi after installation of eSpeak text-to-speech synthesizer.
 
 
 ``` sh
