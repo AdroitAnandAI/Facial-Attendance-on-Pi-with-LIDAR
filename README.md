@@ -1,11 +1,11 @@
 # Facial-Attendance-on-Pi-with-LIDAR
 Face Recognition based Attendance system deployable on Raspberry Pi, with Movidius NCS2 and RPLIDAR A1 to sense deptch to enable Door Access Control simulated with Pimoroni Blinkt
 
-<MODIFY>
+<<<MODIFY>>>
 The face recognition models done in OpenVINO are deployed to RPi, integrated with a Pi Cam and LIDAR. If the person is identified and is sufficiently near to the door, then the door open event is triggered. If the person is not recognized and near to the door then a message should be pushed to the security's moble while keeping the door shut. This is simulated by flashing 'green' and 'red' lights respectively, on a Pimoroni Blinkt! controlled using  MQTT messages.
 
 An input frame is processed by the face detection model to predict face bounding boxes. Then, face keypoints are predicted by the corresponding model. Face recognition model uses keypoints found to align the faces and the face gallery to match faces found on a video frame with the ones in the gallery.
-</MODIFY>
+<<</MODIFY>>>
 
 
 The following pretrained OpenVINO models can be used:
