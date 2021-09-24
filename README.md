@@ -8,7 +8,7 @@ Touch-free interaction of all public devices has become an imperative post-Coron
 Face recognition can be used to identify the person while depth information is required to open the door only to those near the door. Face Recognition based on Deep Learning gives better accuracy than Haar Cascade, LBPH, HOG, or SVM. Depth information can be gathered by LIDAR or DepthAI platforms like LUX-OAK-D that can combine depth perception, object detection, and tracking in one SoM. You can also use ultrasonic sensor HC-SR04 to detect person near door.
 
 Four major steps involved in this project are,
-- **Localize and identify face* (Raspberry Pi + Pi Cam + OpenVINO + Movidius)
+- **Localize and identify face** (Raspberry Pi + Pi Cam + OpenVINO + Movidius)
 - **Publish Identity** to the server (Use MQTT Pub-Sub for IoT communication)
 - **Persist identity** and register attendance (MySQL or AWS)
 - **Alert security** if the person is unidentified (SMS or MMS), else open the door.
